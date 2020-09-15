@@ -50,7 +50,7 @@ class Oraq {
     // redis client
     this._client = new Redis(connection);
     // enable namespace events
-    this._client.config('SET', 'notify-keyspace-events', 'Kgxl');
+    //this._client.config('SET', 'notify-keyspace-events', 'Kgxl');
     // keyspace events subscriber
     this._subscriber = new Redis(connection);
     this._ready = null;
