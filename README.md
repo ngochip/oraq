@@ -20,6 +20,9 @@ Supports node.js >= 7.6.0.
 npm install --save oraq
 ```
 
+Add 'notify-keyspace-events' in redis.conf 
+notify-keyspace-events="Kgxl"
+
 ## Usage
 
 ```js
